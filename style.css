@@ -1,0 +1,196 @@
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+    color: aliceblue;
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(1, 4, 16);
+}
+h1, h2, h3 {
+    font-family: "Cinzel", serif;
+}
+header {
+    background:  linear-gradient(rgba(1,4,16,0), rgba(1,4,16,1)), url('./images/download\ \(10\)_upscayl_4x_upscayl-standard-4x.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+li {
+    list-style: none;
+}
+.menu >ul {
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    padding: 1rem 0;
+    width: 580px;
+    margin: auto;
+    border-radius: 30px;
+    background-color: rgba(1,4,16,0.6);
+    z-index: 3;
+}
+li >a {
+    display: inline-block;
+     transition: ease 0.4s;
+}
+li >a:hover {
+    transform:translateY(-6px);
+    border-bottom: 3.5px solid aliceblue;
+}
+.menu {
+    padding: 1rem;
+}
+
+.hero >h1 {
+    font-size: 82px;
+}
+.hero {
+    padding: 80px 140px;
+}
+.cardsection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3.6rem;
+    margin: 100px auto;
+    padding: 100px;
+    padding-bottom: 50px;
+}
+.card {
+    display: inline-block;
+    width: 300px;
+    padding: 30px;
+    border: 3px solid rgb(154, 12, 12);
+    border-radius: 30px;
+    transition: ease 0.4s;
+}
+.card >img {
+    width: 100%;
+    height: 250px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+.card > p {
+    font-size: 10px;
+}
+.card > h3 {
+   margin-top: 10px;
+}
+.cardsection >div:hover{
+    box-shadow: 0 0 20px rgb(195, 11, 11);
+    transform: scale(1.1);
+}
+.aboutsection {
+    margin-top: 300px;
+}
+.aboutsection >h1 {
+    text-align: center;
+    border-bottom: 4px solid rgb(195, 11, 11);
+    width: 160px;
+    margin: auto;
+}
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin: 100px auto;
+}
+.about >img, .about >div {
+    width: 400px;
+    border-radius: 20px;
+    display: inline-block;
+    transition: ease 0.4s;
+}
+.about >img:hover {
+    box-shadow: 0 0 20px rgb(195, 11, 11);
+    transform: scale(1.1);
+}
+.about >div >p {
+    font-size: 12px;
+    margin: 10px 0;
+}
+.about >div >button {
+    background-color: rgb(195, 11, 11);
+    padding: 8px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 0;
+    margin: 10px 0 0 10px;
+    cursor: pointer;
+}
+.contactsection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin: 400px auto;
+    margin-bottom: 200px;
+}
+.contact, form {
+    width: 500px;
+    border-radius: 20px;
+    display: inline-block;
+}
+.contact > h1 {
+    font-size: 54px;
+    border-bottom: 4px solid rgb(195, 11, 11);
+    width: 270px;
+    margin-bottom: 80px;
+}
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+}
+form {
+    text-align: center;
+}
+.formitem, textarea {
+    display: block;
+    margin: auto;
+    width: 100%;
+    margin: 15px;
+    padding: 15px;
+    border: 0;
+    border-radius: 20px;
+}
+textarea {
+    resize: none;
+}
+#submit {
+    width: 80%;
+    margin: 15px 50px;
+    padding: 15px;
+    border: 0;
+    border-radius: 20px;
+    background-color: rgb(195, 11, 11);
+    color: aliceblue;
+    cursor: pointer;
+}
+.foot {
+    background-color: aliceblue;
+    margin: 150px auto auto 0;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+.foot >h2, .foot >div >p, .foot >div >a >i {
+    color: rgb(1, 4, 16);
+}
+.foot >div >p {
+    border-left: 2px solid rgb(1, 4, 16);
+    padding: 0 10px;
+}
+.foot >div >a >i {
+    font-size: 28px;
+}

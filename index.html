@@ -3,59 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movie Theater</title>
+    <title>StarLight Theater</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/629023a687.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+IN+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <!-- menu -->
-        <nav>
+        <nav class="menu">
             <ul>
                 <li><a href="#herosection">Home</a></li>
                 <li><a href="#nowshowing">Now showing</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#aboutus">About</a></li>
+                <li><a href="#contactus">Contact</a></li>
             </ul>
         </nav>
 
          <!-- hero section -->
         <div class="hero" id="#herosection">
-            <h1>Welcome</h1>
+            <h1>Welcome!</h1>
+            <p>Get ready for an unforgettable movie experience.</p>
         </div>
     </header>
 
    
 
     <!-- now showing -->
-    <section class="container" id="nowshowing">
-        <div>
-            <img src="./images/download (23).jpg" alt="">
+    <section class="cardsection" id="nowshowing">
+        <div class="card">
+            <img src="./images/download (6).jpg" alt="Three Spider-Men"><hr>
             <h3>Three Spider-Men</h3>
             <p>Three Spider-Men stand together from different worlds. They work as a team to fight evil. This scene is exciting and emotional.</p>
         </div>
-         <div>
-            <img src="./images/no way home.jpg" alt="">
+         <div class="card">
+            <img src="./images/download (5).jpg" alt="Iron Spider Suit"><hr>
             <h3>Iron Spider Suit</h3>
             <p>Spider-Man uses his Iron Spider suit with metal legs. It helps him move faster and fight better.</p>
-        </div> <div>
-            <img src="./images/Spider-Man No Way Home.jpg" alt="">
+        </div>
+        <div class="card">
+            <img src="./images/download (7).jpg" alt="Doctor Strange Scene"><hr>
             <h3>Doctor Strange Scene</h3>
             <p>Doctor Strange uses magic to separate Spider-Man's soul from his body. It is a strange and powerful moment.</p>
         </div>
     </section>
 
     <!-- about -->
-     <div>
-
-     </div>
+    <section class="aboutsection" id="aboutus">
+        <h1>About Us</h1>
+        <div class="about">
+            <img src="./images/cinema.jpg" alt="cinema image">
+            <div>
+                <h2>Your Cinematic Journey Starts Here</h2>
+                <p>Welcome to our movie theater website. We bring you the best movie experience with exciting films and a cinematic atmosphere. Our goal is to entertain and connect people through the magic of movies. Enjoy your time and explore your favorite films with us</p>
+                <button>Learn more...</button>
+            </div>
+        </div>
+    </section>
 
     <!-- contact -->
-     <div>
-
-     </div>
+     <section class="contactsection" id="contactus">
+        <div class="contact">
+            <h1>Contact Us</h1>
+            <p>Feel free to contact us anytime. We are here to help you.</p>
+            <div class="icon">
+                <i class="fa-solid fa-phone"></i>
+                <p>+93 (0)76 653 4329</p>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-envelope"></i>
+                <p>movietheater@gmail.com</p>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>Balkh, Afghanistan</p>
+            </div>
+        </div>
+        <form>
+            <input type="text" placeholder="Name" required class="formitem">
+            <input type="text" placeholder="Last name" required class="formitem">
+            <input type="text" placeholder="Email" required class="formitem">
+            <textarea id="message" placeholder="Message" required cols="71" rows="5"></textarea>
+            <input type="submit" name="Submit" id="submit">
+        </form>
+     </section>
 
     <!-- footer -->
-     <footer>
-
+     <footer class="foot">
+        <h2>StarLight Theater</h2>
+        <div>
+            <p>Experience the magic of movies</p>
+            <p>&copy; 2026 All rights reserved</p>
+        </div>
+        <div class="socialmedia">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a> <!-- instagram -->
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a> <!-- linkdin -->
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a> <!-- facebook -->
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a> <!--x-tweeter-->
+        </div>
      </footer>
 </body>
 </html>
