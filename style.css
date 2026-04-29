@@ -194,3 +194,29 @@ textarea {
 .foot >div >a >i {
     font-size: 28px;
 }
+@media screen and (max-width:768px){
+    header {
+        background:  linear-gradient(rgba(1,4,16,0), rgba(1,4,16,1)), url('./images/download\ \(10\)_upscayl_4x_upscayl-standard-4x.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 30vh;
+    }
+    .hero >h1 {
+        font-size: 56px;
+    }
+    .hero {
+        padding: 50px 80px;
+    }
+    .about {
+        gap: 3rem;
+    }
+    .contact > h1 {
+        font-size: 44px;
+        width: 300px;
+        margin-bottom: 60px;
+    }
+    .contact, form {
+        width: 400px;
+        border-radius: 20px;
+    }
+}
